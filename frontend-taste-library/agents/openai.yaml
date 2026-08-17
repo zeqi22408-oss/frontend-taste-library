@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Taste Library"
+  short_description: "Learn and reuse your preferred frontend design references"
+  default_prompt: "Use $frontend-taste-library to study this website and reuse the relevant design patterns in future frontend work."
+
+policy:
+  allow_implicit_invocation: true
