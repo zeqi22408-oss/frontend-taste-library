@@ -1,6 +1,6 @@
 # Frontend Taste Library
 
-一个会持续积累前端参考、记录你的审美判断，并在后续建站任务中复用这些规律的 Codex Skill。
+一个会持续积累前端参考、记录你的审美判断，并在后续建站任务中复用这些规律的开源 Codex Skill。
 
 > 它不会修改模型权重。它通过可读、可维护的 Skill 与参考目录保存长期设计偏好。
 
@@ -12,7 +12,18 @@
 - 在新的网站任务中筛选最多三个匹配参考，把规律翻译成当前项目的设计系统。
 - 记录值得借鉴的设计逻辑，同时排除原网站的可访问性、性能和响应式缺陷。
 
-## 安装
+## 使用 Codex 一句话安装
+
+把下面这段直接发给 Codex：
+
+```text
+使用 $skill-installer 安装这个 Skill：
+https://github.com/zeqi22408-oss/frontend-taste-library/tree/main/frontend-taste-library
+```
+
+安装完成后，Skill 会在下一个对话回合可用。
+
+## 手动安装
 
 将仓库中的 `frontend-taste-library` 文件夹复制到：
 
@@ -58,7 +69,10 @@ frontend-taste-library/
 
 公开仓库只保留公共网址与可公开的设计观察。本地文件路径、私人反馈和未公开项目不应上传；请将它们保留在自己的本地 catalog 中。
 
+## License
+
+本项目基于 [MIT License](./LICENSE) 开源。
+
 ## 当前版本
 
-`v1.0.0`
-
+`v1.0.1`
